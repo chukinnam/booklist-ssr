@@ -1,0 +1,103 @@
+.title {
+  text-align: center;
+}
+.add_new_book_bt {
+  margin: 10px auto;
+  display: block;
+}
+.bookshelf {
+  border: 2px solid burlywood;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  justify-content: start;
+}
+.header > div {
+  width: 20%;
+  border-right: 1px solid burlywood;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+.header > div:last-of-type {
+  border-right: 0;
+}
+.book_box {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.book_box:hover {
+  background-color: lightblue;
+}
+
+.book_box > div {
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid burlywood;
+  padding: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.book_box > div:last-of-type {
+  border-right: 0;
+}
+.book_container {
+  border-bottom: 1px solid burlywood;
+}
+.book_container:last-of-type {
+  border-bottom: 0;
+}
+.book_container:first-of-type {
+  border-top: 1px solid burlywood;
+}
+
+.popup-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: black;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  transform: translate(-50%, -50%);
+}
+.close_button {
+  float: right;
+}
+form {
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+td {
+  text-align: left;
+}
+input {
+  max-width: 30vw;
+  width: 30vw;
+}
+.submit {
+  width: 100px;
+}
+textarea {
+  min-width: 30vw;
+  min-height: 10vw;
+  max-width: 30vw;
+}
